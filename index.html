@@ -14,3 +14,45 @@
         crossorigin="anonymous"
         async>
 </script>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>留言板 Guestbook</title>
+    <style>
+        body {
+            font-family: "Noto Sans TC", sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 0 20px;
+            line-height: 1.8;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>留言板 Guestbook</h1>
+    <p>歡迎來留言，需登入 GitHub 才能留言與回覆。</p>
+
+    <!-- Giscus 留言框 -->
+    <script src="https://giscus.app/client.js"
+        data-repo="shiaupingj/guestbook"
+        data-repo-id="你的 repo-id"
+        data-category="General"
+        data-category-id="你的 category-id"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+    </script>
+</body>
+</html>
